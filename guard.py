@@ -8,7 +8,7 @@ import payments
 #О базе users и типах данных: userid integer, refs_str text, payment_code text, summary text
 # -------------------------ГЛАВНОЕ МЕНЮ-----------------------------------------	
 
-token = '633315690:AAHBBpW34TjIwdYfL78PMC4iWPME9oE0j8M'
+token = 'our_token'
 
 feedback_url = 'https://t.me/dpaulov'
 support_url = 'https://t.me/dpaulov'
@@ -76,9 +76,9 @@ item2 = Item('2')
 item3 = Item('3')
 next_code = 4
 
-item1.change_parameters('Разработка ботов на Python', '500', 'descr1', 'Курсы')
-item2.change_parameters('Кулинария', '200', 'descr2', 'Базы')
-item3.change_parameters('100 Рецептов для геев', '300', 'descr3', 'Базы')
+item1.change_parameters('Item 1', '500', 'descr1', 'Курсы')
+item2.change_parameters('Item 2', '200', 'descr2', 'Базы')
+item3.change_parameters('Item 3', '300', 'descr3', 'Базы')
 
 items = [item1, item2, item3]
 sections = {'Курсы', 'Схемы', 'Базы', 'Чат-боты', 'Разное'}
